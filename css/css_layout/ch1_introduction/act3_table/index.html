@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>table</title>
+    <style>
+      html {
+        font-family: sans-serif;
+      }
+
+      form {
+        display: table;
+        margin: 0 auto;
+      }
+
+      form div {
+        display: table-row;
+      }
+
+      form label, form input {
+        display: table-cell;
+        margin-bottom: 10px;
+      }
+
+      form label {
+        width: 200px;
+        padding-right: 5%;
+        text-align: right;
+      }
+
+      form input {
+        width: 300px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <form>
+      <div>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname">
+      </div>
+      <div>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname">
+      </div>
+      <div>
+        <label for="age">Age:</label>
+        <input type="text" id="age">
+      </div>
+    </form>
+  </body>
+</html>
